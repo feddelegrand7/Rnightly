@@ -1,11 +1,15 @@
 Package: Rnightly
 Type: Package
-Title: What the Package Does (Title Case)
+Title: A Wrapper of the JavaScript Library 'nightly'
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Mohamed El Fodil Ihaddaden
+Maintainer: Mohamed El Fodil Ihaddaden <ihaddaden.fodeil@gmail.com>
+Description: Allows the to implement a dark/light toggle mode in 'shiny' using any element. 
+    The default is dark/light however the user can also specify other colours.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports: 
+    glue,
+    htmltools
+RoxygenNote: 7.1.0
