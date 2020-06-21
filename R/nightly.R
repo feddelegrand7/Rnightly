@@ -50,7 +50,7 @@
 nightly <- function(trigElement, bodyColor = "#282828", txtColor = "#f5f5f5", inpTxtColor = "#f5f5f5", inpBgColor = "#313131"){
 
 
-  tags$script(HTML(glue::glue(
+  htmltools::tags$script(htmltools::HTML(glue::glue(
 
     "
 
