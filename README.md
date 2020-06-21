@@ -23,7 +23,7 @@ You can install the development version of `Rnightly` from Github with :
 remotes::install_github("feddelegrand7/Rnightly")
 ```
 
-The `Rnightly` has two functions:
+The `Rnightly` package has two functions:
 
   - `use_nightly()`: set this function anywhere within your ui. It
     activates the
@@ -37,7 +37,7 @@ The `Rnightly` has two functions:
 
 Let’s create a basic shiny app that demonstrates the features of
 `Rnightly`. Here the `trigElement` will determine which shiny element
-will trigger the Dark/Light mode. Note that it’s the only mandotry
+will trigger the Dark/Light mode. Note that it’s the only mandatory
 argument:
 
 ``` r
@@ -175,8 +175,8 @@ shinyApp(ui, server)
 
 ![](man/figures/Rnightlyexample4.gif)
 
-Further, you can set the text color within Shiny inputs that will be
-displayed after toggling :
+Further, you can set the Shiny inputs’ text color that will be displayed
+after toggling :
 
 ``` r
 
@@ -214,8 +214,7 @@ shinyApp(ui, server)
 
 ![](man/figures/Rnightlyexample5.gif)
 
-Finally, you can change the background color of Shiny inputs after
-toggling :
+Finally, you can change the background color of Shiny inputs:
 
 ``` r
 
