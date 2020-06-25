@@ -5,6 +5,11 @@
 
 <!-- badges: start -->
 
+[![CRAN
+status](https://www.r-pkg.org/badges/version/Rnightly)](https://CRAN.R-project.org/package=Rnightly)
+
+![](http://cranlogs.r-pkg.org/badges/grand-total/Rnightly?color=blue)
+
 <!-- badges: end -->
 
 The goal of `Rnightly` is to implement a Dark/Light toggle mode in your
