@@ -34,9 +34,18 @@ The goal of `Rnightly` is to implement a Dark/Light toggle mode in your Shiny us
 
 ## Installation
 
+
+You can install the `Rnightly` package from [CRAN](https://CRAN.R-project.org/package=Rnightly) with: 
+
+
+```{r, eval=FALSE}
+
+install.packages("Rnightly")
+
+```
+
+
 You can install the development version of `Rnightly` from Github with : 
-
-
 
 ```{r, eval=FALSE}
 # install.packages("remotes")

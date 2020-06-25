@@ -20,6 +20,14 @@ specifying other colors.
 
 ## Installation
 
+You can install the `Rnightly` package from
+[CRAN](https://CRAN.R-project.org/package=Rnightly) with:
+
+``` r
+
+install.packages("Rnightly")
+```
+
 You can install the development version of `Rnightly` from Github with :
 
 ``` r
