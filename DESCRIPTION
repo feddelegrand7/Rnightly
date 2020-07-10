@@ -2,7 +2,9 @@ Package: Rnightly
 Type: Package
 Title: A Wrapper of the 'JavaScript' Library 'Nightly'
 Version: 0.1.0
-Author: Mohamed El Fodil Ihaddaden
+Authors@R: c(
+    person("Mohamed El Fodil", "Ihaddaden", email = "ihaddaden.fodeil@gmail.com", role = c("aut", "cre")),
+    person("Abdeldjalil", "Fortas", role = c("ctb", "cph"), comment = "nightly.js library developer")) 
 Maintainer: Mohamed El Fodil Ihaddaden <ihaddaden.fodeil@gmail.com>
 Description: Allows the user to implement a dark/light toggle mode in 'shiny' using the 'Nightly' 'JavaScript' library. 
     The default mode is dark/light however the user can also specify other colours.
