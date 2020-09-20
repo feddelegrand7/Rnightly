@@ -6,3 +6,5 @@
 ^cran-comments\.md$
 ^CRAN-RELEASE$
 ^\.travis\.yml$
+<<<<<<<<
+^man/figures/RN_example_Rmd\.gif$

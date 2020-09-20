@@ -26,8 +26,8 @@ badge](https://img.shields.io/badge/Build%20with-♥%20and%20R-red)](https://git
 <!-- badges: end -->
 
 The goal of `Rnightly` is to implement a Dark/Light toggle mode in your
-Shiny user interface. You can also change the default behavior by
-specifying other colors.
+Shiny and RMarkdown user interface. You can also change the default
+behavior by specifying other colors.
 
 ![](https://media.giphy.com/media/xUOwV2E6HhngCpYpWw/giphy.gif)
 
@@ -60,6 +60,8 @@ The `Rnightly` package has two functions:
     examples on how to use it.
 
 ## Examples
+
+## 1.Shiny
 
 Let’s create a basic shiny app that demonstrates the features of
 `Rnightly`. Here the `trigElement` will determine which shiny element
@@ -278,6 +280,12 @@ shinyApp(ui, server)
 ```
 
 ![](man/figures/Rnightlyexample6.gif)
+
+2.  RMarkdown
+
+Similarly, you can implement `Rnightly` in RMarkdown:
+
+![](man/figures/RN_example_Rmd.gif)
 
 ## Code of Conduct
 
