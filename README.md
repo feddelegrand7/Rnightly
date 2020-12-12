@@ -281,7 +281,8 @@ shinyApp(ui, server)
 
 ![](man/figures/Rnightlyexample6.gif)
 
-2.  RMarkdown
+# 2. RMarkdown
+
 
 Similarly, you can implement `Rnightly` in RMarkdown:
 
